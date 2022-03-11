@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@tsconfig/node16-strictest-esm": "^1.0.0",
+    "vitest": "^0.6.0"
+  }
+}

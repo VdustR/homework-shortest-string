@@ -1,0 +1,9 @@
+{
+  "extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["DOM", "ES2019"],
+    "types": ["vitest/globals"],
+    "moduleResolution": "node"
+  },
+  "include": ["src"]
+}
